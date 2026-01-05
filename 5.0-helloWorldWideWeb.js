@@ -34,7 +34,7 @@ const getIndexPage = function (request, response) {
 
 // another function
 const helloName = function (name) {
-    console.log(`Hello, ${name}}`);
+    console.log(`Hello, ${name}`);
 }
 console.log("Example function-object call:");
 helloName("YourName");

@@ -1,7 +1,7 @@
 {
-  "name": "lecture5demo",
+  "name": "javascript-is-weird",
   "version": "1.0.0",
-  "description": "## 5.0 Hello World",
+  "description": "javascript is weird",
   "type": "module",
   "main": "",
   "scripts": {
