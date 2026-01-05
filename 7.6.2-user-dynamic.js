@@ -18,7 +18,14 @@ class User {
 }  
 
 let u = new User("tony", "password1", "initial");
-User.age = 2;
-console.log(u);
-let other = new User("b", "password1", "b");
-console.log(other);
+u.age = 2;
+// this user has an age:
+console.log(`user ${JSON.stringify(u)}`);
+
+let other = new User("other", "password1", "initial");
+// this user does not:
+console.log(`user ${JSON.stringify(other)} has no age`);
+
+// what if we apply a property to the class?
+User.age = 5;
+console.log(`class age is ${User.age}, how weird is that?`);

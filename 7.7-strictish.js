@@ -1,5 +1,5 @@
-// duplicate param name not allowed:
 
+// duplicate param name not allowed:
 function foo(x, x) {
     console.log(`hi ${x}?!`);
 }

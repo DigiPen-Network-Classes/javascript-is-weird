@@ -1,3 +1,4 @@
+"use strict";
 class User {
   // must declare private variables in context:
   #username;
@@ -19,6 +20,4 @@ class User {
 
 let u = new User("tony", "password1", "initial");
 // not allowed!
-u.username = "newusername";
-
-
+u.username = "newusername"; // TypeError!

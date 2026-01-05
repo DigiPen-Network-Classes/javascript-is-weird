@@ -1,4 +1,4 @@
-var someCondition = true;
+var someCondition = false;
 
 if (someCondition) {
     var x = 5;
